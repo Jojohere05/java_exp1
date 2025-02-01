@@ -1,7 +1,7 @@
 class Main{
 	public static void main(String args[]){
-	Calculator cal = new Calculator();
-	
-	System.out.println("the sum is :"+cal.sum());
+		UserInput input=new UserInput();
+		Calculator calculator=new Calculator();
+		input.performCalculation(calculator);
 	}
 }
